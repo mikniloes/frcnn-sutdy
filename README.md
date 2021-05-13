@@ -27,6 +27,8 @@
 * detect : ```python3.8 run.py detect --dataset voc_2007_test --net resnet50 --epoch 20 --cuda --vis```
 
 ### 데이터 증강
+![스크린샷 2021-05-13 오전 11 00 09](https://user-images.githubusercontent.com/84064361/118066863-6b566a80-b3da-11eb-9928-29e03312af6e.png)
+
 * python imgaug 라이브러리 사용
 * lib/dataset/collate.py
 * 포함된 증강 :
@@ -37,7 +39,7 @@
   + Multiply
   + Grayscale
   + flip (기존에 포함)
-
+  
 ### freeze backbone(resnet) layer
 * lib/config.py => cfg.RESNET.NUM_FREEZE_BLOCKS = 0~3
 * feature extraction layer를 전부 고정할 경우 layer1~3은 학습 X (parameter가 업데이트 되지 않음)
