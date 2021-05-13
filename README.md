@@ -43,7 +43,8 @@
 * feature extraction layer를 전부 고정할 경우 layer1~3은 학습 X (parameter가 업데이트 되지 않음)
 ![frcnn_resnet](https://user-images.githubusercontent.com/84064361/118063878-e157d300-b3d4-11eb-8074-86ffae9e5a7d.png)
 * layer 고정시 연산 파라미터 개수 비교
-![frcnn_resnet](https://user-images.githubusercontent.com/84064361/118064119-6216cf00-b3d5-11eb-8632-23e143a98675.png)
+![resnet_param](https://user-images.githubusercontent.com/84064361/118064310-ba4dd100-b3d5-11eb-990b-f8fb9a19e9c3.png)
+
 
 
 
