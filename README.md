@@ -28,6 +28,7 @@
 
 ### 데이터 증강
 * python imgaug 라이브러리 사용
+* lib/dataset/collate.py
 * 포함된 증강 :
   + AverageBlur & MedianBlur
   + AdditiveGaussianNoise
@@ -36,5 +37,13 @@
   + Multiply
   + Grayscale
   + flip (기존에 포함)
+
+### freeze backbone(resnet) layer
+* lib/config.py => cfg.RESNET.NUM_FREEZE_BLOCKS = 0~3
+* feature extraction layer를 전부 고정할 경우 layer1~3은 학습 X (parameter가 업데이트 되지 않음)
+![frcnn_resnet](https://user-images.githubusercontent.com/84064361/118063878-e157d300-b3d4-11eb-8074-86ffae9e5a7d.png)
+* layer 고정시 연산 파라미터 개수 비교
+![frcnn_resnet](https://user-images.githubusercontent.com/84064361/118064119-6216cf00-b3d5-11eb-8632-23e143a98675.png)
+
 
 
