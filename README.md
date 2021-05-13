@@ -41,7 +41,7 @@
 ### freeze backbone(resnet) layer
 * lib/config.py => cfg.RESNET.NUM_FREEZE_BLOCKS = 0~3
 * feature extraction layer를 전부 고정할 경우 layer1~3은 학습 X (parameter가 업데이트 되지 않음)
-![스크린샷 2021-05-13 오전 10 42 49](https://user-images.githubusercontent.com/84064361/118065473-000b9900-b3d8-11eb-9599-56f148f23d71.png)
+![스크린샷 2021-05-13 오전 10 44 20](https://user-images.githubusercontent.com/84064361/118065603-33e6be80-b3d8-11eb-8deb-f18e99acb010.png)
 
 
 
