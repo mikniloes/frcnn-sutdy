@@ -26,4 +26,15 @@
 * test : ```python3.8 run.py test --dataset voc_2007_test -n resnet50 --epoch 20 --cuda```
 * detect : ```python3.8 run.py detect --dataset voc_2007_test --net resnet50 --epoch 20 --cuda --vis```
 
+### 데이터 증강
+* python imgaug 라이브러리 사용
+* 포함된 증강 :
+  + AverageBlur & MedianBlur
+  + AdditiveGaussianNoise
+  + AddToHueAndSaturation
+  + LinearContrast
+  + Multiply
+  + Grayscale
+  + flip (기존에 포함)
+
 
