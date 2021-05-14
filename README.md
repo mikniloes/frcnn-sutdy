@@ -50,12 +50,12 @@
 
 |checkpoint(.pth)|resnet50(torchvision.model)|
 |:---|:---|
-|RCNN_rpn.RPN_Conv.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_Conv.bias|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_cls_score.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_cls_score.bias|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_bbox_pred.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_bbox_pred.bias|layer4.2.bn3.num_batches_tracked|
+|RCNN_rpn.RPN_Conv.weight||
+|RCNN_rpn.RPN_Conv.bias||
+|RCNN_rpn.RPN_cls_score.weight||
+|RCNN_rpn.RPN_cls_score.bias||
+|RCNN_rpn.RPN_bbox_pred.weight||
+|RCNN_rpn.RPN_bbox_pred.bias||
 |RCNN_base.0.weight|conv1.weight|
 |RCNN_base.1.weight|bn1.weight|
 |RCNN_base.1.bias|bn1.bias|
