@@ -47,6 +47,7 @@
 
 ### checkpoint 파일에서 resnet weight 가져오기
 * 학습 모델의 key가 아래 표와 같이 매치됨
+
 |checkpoint(.pth)|resnet50|
 |:---|:---|
 |RCNN_rpn.RPN_Conv.weight|layer4.2.bn3.num_batches_tracked|
