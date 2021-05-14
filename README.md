@@ -48,14 +48,14 @@
 ### checkpoint 파일에서 resnet weight 가져오기
 * 학습 모델의 key가 아래 표와 같이 매치됨
 
-|checkpoint(.pth)|resnet50|
+|checkpoint(.pth)|resnet50(torchvision.model)|
 |:---|:---|
-|RCNN_rpn.RPN_Conv.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_Conv.bias|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_cls_score.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_cls_score.bias|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_bbox_pred.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_rpn.RPN_bbox_pred.bias|layer4.2.bn3.num_batches_tracked|
+|RCNN_rpn.RPN_Conv.weight||
+|RCNN_rpn.RPN_Conv.bias||
+|RCNN_rpn.RPN_cls_score.weight||
+|RCNN_rpn.RPN_cls_score.bias||
+|RCNN_rpn.RPN_bbox_pred.weight||
+|RCNN_rpn.RPN_bbox_pred.bias||
 |RCNN_base.0.weight|conv1.weight|
 |RCNN_base.1.weight|bn1.weight|
 |RCNN_base.1.bias|bn1.bias|
@@ -374,8 +374,8 @@
 |RCNN_top.0.2.bn3.running_mean|layer4.2.bn3.running_mean|
 |RCNN_top.0.2.bn3.running_var|layer4.2.bn3.running_var|
 |RCNN_top.0.2.bn3.num_batches_tracked|layer4.2.bn3.num_batches_tracked|
-|RCNN_cls_score.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_cls_score.bias|layer4.2.bn3.num_batches_tracked|
-|RCNN_bbox_pred.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_bbox_pred.bias|layer4.2.bn3.num_batches_tracked|
+|RCNN_cls_score.weight||
+|RCNN_cls_score.bias||
+|RCNN_bbox_pred.weight||
+|RCNN_bbox_pred.bias||
 
