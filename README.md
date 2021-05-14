@@ -374,8 +374,8 @@
 |RCNN_top.0.2.bn3.running_mean|layer4.2.bn3.running_mean|
 |RCNN_top.0.2.bn3.running_var|layer4.2.bn3.running_var|
 |RCNN_top.0.2.bn3.num_batches_tracked|layer4.2.bn3.num_batches_tracked|
-|RCNN_cls_score.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_cls_score.bias|layer4.2.bn3.num_batches_tracked|
-|RCNN_bbox_pred.weight|layer4.2.bn3.num_batches_tracked|
-|RCNN_bbox_pred.bias|layer4.2.bn3.num_batches_tracked|
+|RCNN_cls_score.weight||
+|RCNN_cls_score.bias||
+|RCNN_bbox_pred.weight||
+|RCNN_bbox_pred.bias||
 
