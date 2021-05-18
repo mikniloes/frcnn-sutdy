@@ -64,21 +64,14 @@
 |RCNN_base.1.num_batches_tracked|bn1.num_batches_tracked|
 |RCNN_base.4.0.conv1.weight|layer1.0.conv1.weight|
 |RCNN_base.4.0.bn1.weight|layer1.0.bn1.weight|
-|RCNN_base.4.0.bn1.bias|layer1.0.bn1.bias|
-|RCNN_base.4.0.bn1.running_mean|layer1.0.bn1.running_mean|
-|RCNN_base.4.0.bn1.running_var|layer1.0.bn1.running_var|
 | ... | ... |
-|RCNN_top.0.2.bn2.num_batches_tracked|layer4.2.bn2.num_batches_tracked|
-|RCNN_top.0.2.conv3.weight|layer4.2.conv3.weight|
-|RCNN_top.0.2.bn3.weight|layer4.2.bn3.weight|
-|RCNN_top.0.2.bn3.bias|layer4.2.bn3.bias|
-|RCNN_top.0.2.bn3.running_mean|layer4.2.bn3.running_mean|
 |RCNN_top.0.2.bn3.running_var|layer4.2.bn3.running_var|
 |RCNN_top.0.2.bn3.num_batches_tracked|layer4.2.bn3.num_batches_tracked|
 |RCNN_cls_score.weight||
 |RCNN_cls_score.bias||
 |RCNN_bbox_pred.weight||
 |RCNN_bbox_pred.bias||
+
 
 * GradCAM으로 backbone 학습 여부 비교
 ![gradcam_resnet](https://user-images.githubusercontent.com/84064361/118603649-26be3b00-b7ef-11eb-8eca-57790acd4e60.png)
